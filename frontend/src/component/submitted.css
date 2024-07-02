@@ -1,0 +1,76 @@
+/* CSS for submitted page */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.submitted-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.submitted-container #head {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.submissions-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.submission-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.submission-card:hover {
+    transform: scale(1.05);
+}
+
+.submission-card h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.submission-card .submitted-code {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-size: 0.9em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.submission-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.submission-card a:hover {
+    text-decoration: underline;
+}
+
+.no-submissions {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    padding: 50px;
+}

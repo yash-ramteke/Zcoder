@@ -1,0 +1,86 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #282c34;
+  padding: 1rem;
+  color: white;
+}
+
+nav .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+nav main {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logout-button {
+  background-color: #ff4b5c;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.welcome-section {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.user-profile {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.profile-details {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  text-align: left;
+}
+
+.profile-details p {
+  margin: 10px 0;
+}
+
+.home-footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+}
